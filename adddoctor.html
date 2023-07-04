@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="pink" text="indigo">
+<table align="center"><tr><th><h1>DOCTOR'S APP</h1></th></tr></table>
+<table align="right"><tr><td><form action="emergency.html">
+<input type="submit" value="Emergency"></td></tr></form></table>
+<br><br><hr size="2" color="indigo">
+	<form method="post" action="docreg" >
+	<table align="center">
+	<tr><th><H1>ADD DOCTOR</H1></th></tr></table><table align="center">
+	<tr><td><b>Doctor Name</b></td><td><input required type="text" name="doc_name"/></td></tr>
+	<tr><td><b>Date of Birth</b></td><td><input required type="date" name="dob"  value="2000-01-01"
+	  min="1970-01-01" max="2020-12-31"/></td></tr>
+	<tr><td><b>Specialisation</b></td><td><input required type="text" name="doc_spec"/></td></tr>
+	<tr><td><b>E-mail id</b></td><td><input required type="text" name="mail"/></td></tr>
+	<tr><td><b>User id</b></td><td><input required type="text" name="doc_id"/></td></tr>
+	<tr><td><b>Password</b></td><td><input required type="password" name="doc_pass"/></td></tr>
+	<tr><td><input type="radio" name="sex" value="female"/><b>Female</b></td>
+			<td><input type="radio" name="sex" value="male"/><b>Male</b></td></tr>
+	<tr><td><b>Ph.no.</b></td><td><input required type="text" name="phno"/></td></tr>
+	<tr><td><input  type="submit" color="green" align="center" value="Add Doctor"></td><td>
+	<input  type="reset" value="Reset">
+	</td></tr></table></form>
+	
+</body>
+</html>

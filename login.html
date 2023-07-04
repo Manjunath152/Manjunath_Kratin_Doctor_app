@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Doctor's Application</title>
+</head>
+<body bgcolor="pink" text="indigo">
+	<table align="center"><tr><th><h1>DOCTOR'S APP</h1></th></tr></table>
+	<form method="post" action="patlogserv" >
+	<table align="right"><tr><td><b>UserId</b></td><td><input type="text" name=patid required></td></tr>
+	<tr><td><b>Password</b></td><td><input type="password" name=patpass required></td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr><tr>
+	<td><input type="submit" value="Login" ></td></tr>
+	</table></form>
+	<table border="0"><tr><td><form action="emergency.html">
+	<input type="submit" value="Emergency"></form></td></tr></table>
+	<br><br><br><hr size="2" color="indigo">
+	<form method="post" action="patreg" >
+	<table align="right">
+	<tr><th><H1>Sign Up</H1></th></tr>
+	<tr><td><b>Patient Name</b></td><td><input required type="text" name="patient_name"/></td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+	<tr><td><b>Date of Birth</b></td><td><input required type="date" name="dob"  value="2000-01-01" min="1950-01-01" max="2020-12-31"/></td><td></td></tr>
+	  <tr><td><b>Age</b></td><td><input required type="text" name="age"/></td><td></td></tr>
+	<tr><td><b>Address</b></td><td><input required type="text" name="pat_add"/></td><td></td></tr>
+	<tr><td><b>E-mail id</b></td><td><input required type="text" name="mail"/></td><td></td></tr>
+	<tr><td><b>User id</b></td><td><input required type="text" name="patient_id"/></td><td></td></tr>
+	<tr><td><b>Password</b></td><td><input required type="password" name="pat_pass"/></td><td></td></tr>
+	<tr><td><input type="radio" name="sex" value="female"/><b>Female</b></td>
+			<td><input type="radio" name="sex" value="male"/><b>Male</b></td><td></td></tr>
+	<tr><td><b>Ph.no.</b></td><td><input required type="text" name="phno"/></td><td></td></tr>
+	<tr><td><input  type="submit" color="green" align="center" value="Sign Up"></td><td></td></tr></table></form>
+	<table align="left" >
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td><h1>Available Doctor's</h1></td></tr>
+			<tr><td></td><td><b>->Cardiologist</b></td></tr>
+			<tr><td></td><td><b>->Orthopadician</b></td></tr>
+			<tr><td></td><td> <b>->Psychiatrist</b></td></tr>
+			<tr><td></td><td><b>->Cardiovascular surgeon</b></td></tr>
+			<tr><td></td><td><b>->Dermatologists</b></td></tr>
+			<tr><td></td><td><b>->Gastroenterologists</b></td></tr>
+		</table>
+</body> 
+</html>
